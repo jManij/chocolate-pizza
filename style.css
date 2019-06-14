@@ -88,11 +88,13 @@ section > div:nth-child(2) {
   float: right;
 }
 
-.container {
+.recipe-container {
   position: relative;
-  text-align: center;  
 }
-.container > ul > li {
+
+.text-block { 
+  list-style-type: square;
   position: absolute;
-  transform: translate(-50%, -50%);
+  bottom: 40px;
+  right: 20px;
 }
