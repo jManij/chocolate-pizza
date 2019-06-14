@@ -1,0 +1,98 @@
+
+*{
+  box-sizing: border-box;
+  /* border: 5px solid black; */
+  
+}
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+hr {
+	height: 6px;
+	background: url(./img/hr-img.png) repeat-x 0 0;
+    border: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  height:150px;
+  position: relative;
+}
+
+nav {
+  width: 960 px;
+  margin: auto;
+}
+
+nav > div > div  {
+  position: absolute;
+  float: left;
+}
+
+nav > div > div > img {
+  margin-top: 30px;
+}
+
+nav > div > div:nth-child(2) {
+  /* float: left; */
+  /* margin-top: -30px; */
+  margin-left: 10px; 
+}
+
+nav > div:nth-child(1) > ul{
+  position: absolute;
+  top: 50%;
+  height:50px;
+  margin-top: -35px;
+}
+
+nav > div:nth-child(1) > ul > li {
+  float: left;
+  margin-right: 50px;
+  line-height: 60px;
+}
+
+nav > div:nth-child(2) > ul > li:nth-child(3) {
+  margin-right: 10px;
+}
+
+nav > div:nth-child(2) > ul > li {
+  float: right;
+}
+
+section > div:nth-child(2) > ul >{
+  position: absolute;
+  padding: 0px;
+}
+
+section > div:nth-child(2) > ul > li {
+  float: right;
+}
+
+section > div:nth-child(2) img {
+  padding-top: 20px;
+  margin-right: 5px;
+}
+
+section > div:nth-child(1) {
+  float: left;
+}
+
+section > div:nth-child(2) {
+  float: right;
+}
+
+.container {
+  position: relative;
+  text-align: center;  
+}
+.container > ul > li {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
