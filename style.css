@@ -10,17 +10,20 @@ body {
   margin: auto;
 }
 
+hr {
+	height: 6px;
+	background: url(./img/hr-img.png) repeat-x 0 0;
+    border: 0;
+}
+
 li {
   list-style-type: none;
 }
 
 header {
-  height:100px;
+  height:150px;
   position: relative;
-  margin-bottom: 30px;
 }
-
-
 
 nav {
   width: 960 px;
@@ -32,16 +35,15 @@ nav > div > div  {
   float: left;
 }
 
-nav > div > div:nth-child(2) {
-  /* float: left; */
-  margin-top: -30px;
-  margin-left: 10px;
-  
+nav > div > div > img {
+  margin-top: 30px;
 }
 
-
-
-
+nav > div > div:nth-child(2) {
+  /* float: left; */
+  /* margin-top: -30px; */
+  margin-left: 10px; 
+}
 
 nav > div:nth-child(1) > ul{
   position: absolute;
@@ -54,11 +56,28 @@ nav > div:nth-child(1) > ul > li {
   float: left;
   margin-right: 50px;
   line-height: 60px;
+}
 
+nav > div:nth-child(2) > ul > li:nth-child(3) {
+  margin-right: 10px;
 }
 
 nav > div:nth-child(2) > ul > li {
   float: right;
+}
+
+section > div:nth-child(2) > ul >{
+  position: absolute;
+  padding: 0px;
+}
+
+section > div:nth-child(2) > ul > li {
+  float: right;
+}
+
+section > div:nth-child(2) img {
+  padding-top: 20px;
+  margin-right: 5px;
 }
 
 section > div:nth-child(1) {
@@ -68,11 +87,6 @@ section > div:nth-child(1) {
 section > div:nth-child(2) {
   float: right;
 }
-
-/* section > div:nth-child(2) > ul >{
-  position: absolute;
-} */
-
 
 .container {
   position: relative;
