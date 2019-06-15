@@ -10,7 +10,7 @@ body {
 hr {
 	height: 20px;
 	background: url(./img/hr-img.png) repeat-x 5px 5px;
-  border: 0;
+  border: none;
 }
 
 header {
@@ -120,11 +120,18 @@ article {
 
 .recipe-container {
   position: relative;
+  font-size: 25px;
+}
+
+.recipe-container > div > ul > li {
+  font-family: 'Mali', cursive;
 }
 
 .text-block { 
   list-style-type: square;
   position: absolute;
-  bottom: 40px;
-  right: 20px;
+  bottom: 100px;
+  right: 100px;
+  column-count: 2;
+  column-gap: 110px;
 }
