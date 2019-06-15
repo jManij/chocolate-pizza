@@ -130,8 +130,50 @@ article {
 .text-block { 
   list-style-type: square;
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   right: 100px;
   column-count: 2;
   column-gap: 110px;
+}
+
+footer {
+  padding: 50px;
+  margin-bottom: 50px;
+  clear: both;
+  position: relative;
+  height: 150px;
+  text-align: center;
+  vertical-align: center;
+  font-size: 16px;
+  line-height: 5px;
+  color: rgb(187, 185, 185);
+}
+
+footer > div {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.footer > div > img > span {
+  position: relative;
+  display: inline-block;
+}
+
+.footer > div > img > span:before,
+.footer > div > img > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+}
+
+.footer > div > img > span:before {
+  right: 100%;
+}
+
+.footer > div > img > span:after {
+  left: 100%;
 }
